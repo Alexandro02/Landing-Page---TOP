@@ -4,10 +4,99 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Roboto",
+		"Open Sans",
+		"Helvetica Neue",
+		sans-serif;
+	height: 100vh;
+	width: 100%;
+}
+
 a {
 	text-decoration: none;
+	color: #000;
 }
 
 ul {
 	list-style: none;
+}
+
+/* Navigation styles */
+.nav,
+.links {
+	display: flex;
+}
+
+.nav {
+	width: 100%;
+	padding: 1.2rem 15rem;
+	background: #1f2937;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-text {
+	color: #f9faf8;
+	font-size: 2rem;
+}
+
+.links {
+	gap: 24px;
+	font-size: 18px;
+
+	li>a {
+		color: #e5e7eb;
+	}
+}
+
+/* Header styles */
+
+.header {
+	height: 500px;
+	display: flex;
+	padding: 0 15rem;
+	align-items: center;
+	background: #1f2937;
+	width: 100%;
+
+	.left {
+		flex: 1;
+
+		.header-title {
+			color: #f9faf8;
+			font-weight: 900;
+			font-size: 3rem;
+		}
+
+		.header-subt {
+			color: #e5e7e3;
+			font-size: 18px;
+			width: 95%;
+		}
+
+		.header-button {
+			background: #3882f6;
+			width: 130px;
+			padding: 10px;
+			margin-top: 10px;
+			border-radius: 10px;
+			border: none;
+			color: #ffffff;
+			font-weight: bold;
+		}
+	}
+
+	.right {
+		flex: 1;
+		margin-left: auto;
+
+		img {
+			width: 100%;
+		}
+	}
 }
