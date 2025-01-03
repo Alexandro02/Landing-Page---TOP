@@ -100,3 +100,46 @@ ul {
 		}
 	}
 }
+
+/* Information section styles */
+
+.information {
+	padding: 0rem 15rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.info-title {
+		color: #1f2937;
+		font-weight: 900;
+		font-size: 36px;
+		margin: 3rem 0;
+	}
+
+	.cards {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+
+		.card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 250px;
+
+			.box {
+				width: 200px;
+				height: 200px;
+
+				border-radius: 10px;
+				border: 5px solid #3b82f6;
+			}
+
+			span {
+				margin-top: 10px;
+				width: 200px;
+				text-align: center;
+			}
+		}
+	}
+}
