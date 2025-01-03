@@ -170,3 +170,49 @@ ul {
 		align-self: end;
 	}
 }
+
+/* CTA section styles */
+
+.cta-section {
+	padding: 0 30rem;
+	background: #fff;
+	/* width: 65.5rem; */
+
+	.container {
+		background-color: #3882f6;
+		padding: 2.5rem 8rem;
+		margin: 4rem 0;
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		gap: 3.5rem;
+		color: #fff;
+
+		.left {
+			flex: 2;
+		}
+
+		.right {
+			flex: 1;
+
+			button {
+				width: 150px;
+
+				padding: 10px 15px;
+				color: #fff;
+				border: 2px solid #fff;
+				border-radius: 10px;
+				background: #3882f6;
+			}
+		}
+	}
+}
+
+/* Footer section styles */
+
+.footer {
+	padding: 3rem 15rem;
+	background-color: #1f2937;
+	color: #fff;
+	text-align: center;
+}
